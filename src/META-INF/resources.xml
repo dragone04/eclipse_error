@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<Resource id="pstg" type="DataSource" auth="Container">
+		JdbcDriver = org.postgresql.Driver
+		JdbcUrl = jdbc:postgresql://localhost:5432/pstg
+		UserName = pstg
+		Password = pstg
+		JtaManaged = true
+	</Resource>
+</resources>
